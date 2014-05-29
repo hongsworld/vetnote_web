@@ -7,8 +7,152 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class ="container">
+    <div class ="top">
+      <div class = "top-logo">
+      </div>
+      <div class = "top-search">
+      </div>
+    </div>
 
-<%= yield %>
+    <div class = "container-lt">
+      <div class = "lt-menu">
+        <div class = "lt-menu-lt">
+        </div>
+        <div class = "lt-menu-rt">
+          <div class = "lt-menu-rt-top">
+            홍길동 교수님
+          </div>
+          <div class = "lt-menu-rt-middle">
+            로그아웃
+          </div>
+        </div>
+      </div>
+      <div class = "lt-colum">
+        <div class = "lt-colum-top">
+          <div class = "lt-colum-top-lt">
+          </div>
+          <div class = "lt-colum-top-rt">
+            <div class = "lt-colum-top-rt-top">
+              May 25,2013
+            </div>
+            <div class = "lt-colum-top-rt-middle">
+              수강중인 학생 목록
+            </div>
+            <div class = "lt-colum-top-rt-bottom">
+              내과
+            </div>
+          </div>
+        </div>
+        <div class = "lt-colum-line">
+        </div>
+        <div class = "lt-colum-middle">
+          <div class = "lt-colum-middle-box">
+            <div class = "lt-colum-middle-box-title">
+              CHECK
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                로그북 체크
+              </div>
+              <div class = "lt-colum-middle-box-row-rt">
+                N
+              </div>
+            </div>
+          </div>
+
+          <div class = "lt-colum-middle-box">
+            <div class = "lt-colum-middle-box-title">
+              NOTICE
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                공지사항
+              </div>
+            </div>
+          </div>
+
+
+          <div class = "lt-colum-middle-box">
+            <div class = "lt-colum-middle-box-title">
+              COMMENT
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                QnA 답하기
+              </div>
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                교수 코멘트
+              </div>
+            </div>
+          </div>
+
+
+          <div class = "lt-colum-middle-box">
+            <div class = "lt-colum-middle-box-title">
+              EDIT
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                로그북 수정
+              </div>
+            </div>
+            <div class = "lt-colum-middle-box-row">
+              <div class = "lt-colum-middle-box-row-lt">
+              </div>
+              <div class = "lt-colum-middle-box-row-ct">
+                실습지침 수정
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "lt-colum-line">
+        </div>
+        <div class = "lt-colum-bottom">
+          <div class = "lt-colum-bottom-row">
+            <div class = "lt-colum-bottom-row-lt">
+              <div class = "lt-colum-bottom-row-hf-top">
+              </div>
+              <div class = "lt-colum-bottom-row-hf-bottom">
+                내가 쓴 글
+              </div>
+            </div>
+            <div class = "lt-colum-bottom-row-rt">
+              <div class = "lt-colum-bottom-row-hf-top">
+              </div>
+              <div class = "lt-colum-bottom-row-hf-bottom">
+                내가 쓴 답변
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class = "container-ct">
+        <%= yield %>
+    </div>
+
+    <div class = "container-rt">
+      <span style="color:#fefefe"> 대쉬보드가 오른쪽에 있는게 낫지 않을까?
+    </span>
+    </div>
+  </div>
+
 
 </body>
 </html>
